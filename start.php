@@ -2,8 +2,8 @@
 require 'facebook-php-sdk-master/src/facebook.php';
 
 $facebook = new Facebook(array(
-	'appId' => '686151734741786',
-	'secret' => 'ef0e68e6269212e9802382bde2e8246d'
+	'appId' => 'YOUR APP ID HERE',
+	'secret' => 'YOUR APP SECRET HERE'
 ));
 
 $user = $facebook->getUser();
